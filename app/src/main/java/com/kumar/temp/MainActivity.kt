@@ -68,7 +68,7 @@ fun Greeting(count: Int, action: (operation) -> Unit) {
     ) {
         Row(modifier = Modifier) {
             Button(
-                onClick = { action(operation.onPlusClicked) },
+                onClick = { action(operation.OnPlusClicked) },
                 modifier = Modifier.size(100.dp)
             ) {
                 Text(
@@ -78,7 +78,7 @@ fun Greeting(count: Int, action: (operation) -> Unit) {
 
             }
             Button(
-                onClick = { action(operation.onMinusClicked) },
+                onClick = { action(operation.OnMinusClicked) },
                 modifier = Modifier.size(100.dp)
             ) {
                 Text(

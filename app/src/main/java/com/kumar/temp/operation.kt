@@ -1,7 +1,8 @@
 package com.kumar.temp
 
 sealed class operation {
-    data object onPlusClicked : operation()
+    data object OnPlusClicked : operation()
 
-    data object onMinusClicked : operation()
+    data object OnMinusClicked : operation()
+
 }
